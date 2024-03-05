@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#loginForm, #registerForm {}
+#loginForm h2, #registerForm h2 {
+    text-align: center;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+#canvas {
+    border: 1px solid #000;
+}
+#controlPanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logout {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}
+#logout:hover {
+    background-color: #d32f2f;
+}
+#onlineUsers {
+    margin: 20px 0;
+}
+#userList {
+    list-style-type: none;
+    padding: 0;
+}
+#userList .currentUser {
+    color: red;
+}
+.index-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.canvas-content {margin: 5px;}
+.index-form {
+    width: 300px;
+    margin: 5px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.usrSelf {
+    color: red;
+}
